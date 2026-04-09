@@ -12,6 +12,9 @@ const Navbar = () => {
       <li>
         <Link href={"/product"}>Products</Link>
       </li>
+      <li>
+        <Link href={"/dashboard"}>Dashboard</Link>
+      </li>
     </>
   );
   return (
