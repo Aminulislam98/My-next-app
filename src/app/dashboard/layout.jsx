@@ -18,7 +18,6 @@ const DashBoardLayout = ({ children }) => {
           className="drawer-overlay"
         ></label>
         <ul className="menu bg-base-200 min-h-full w-80 p-4">
-          {children}
           <li>
             <Link href={"/dashboard/revenue"}>Revenue</Link>
           </li>
